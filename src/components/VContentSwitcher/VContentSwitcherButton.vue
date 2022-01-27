@@ -1,7 +1,7 @@
 <template>
   <VButton
     class="flex flex-row font-semibold px-3 py-2 text-sr md:text-base"
-    :class="{ 'w-12': isIconButton }"
+    :class="{ 'w-12': isIconButton, 'max-w-[10.5rem]': showLabel }"
     :variant="buttonVariant"
     size="disabled"
     :aria-label="buttonLabel"
@@ -9,9 +9,11 @@
     @click="$emit('click')"
   >
     <VIcon :icon-path="icon" />
-    <span v-show="showLabel" :class="{ 'ms-2 w-20 text-left': showLabel }">{{
-      buttonLabel
-    }}</span>
+    <span
+      v-show="showLabel"
+      :class="{ 'ms-2 text-left truncate': showLabel }"
+      >{{ buttonLabel }}</span
+    >
     <VIcon
       class="hidden md:block text-dark-charcoal-40 md:ms-2"
       :icon-path="caretDownIcon"
