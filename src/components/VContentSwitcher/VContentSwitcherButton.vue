@@ -1,7 +1,10 @@
 <template>
   <VButton
     class="flex flex-row font-semibold px-3 py-2 text-sr md:text-base"
-    :class="{ 'w-12': isIconButton, 'max-w-[10.5rem]': showLabel }"
+    :class="{
+      'w-12': isIconButton,
+      'max-w-[8rem] md:max-w-[10.5rem]': showLabel,
+    }"
     :variant="buttonVariant"
     size="disabled"
     :aria-label="buttonLabel"
