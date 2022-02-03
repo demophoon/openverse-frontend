@@ -37,6 +37,7 @@
     "src/composables/use-active-audio.js",
     "src/data/api-service.js",
     "src/data/usage-data-service.js",
+    "src/store/user.js",
     "src/utils/warn.js"
   ]
 }
