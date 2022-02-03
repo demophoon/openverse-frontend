@@ -34,6 +34,9 @@
   "include": [
     "src/composables/types.js",
     "src/composables/use-event-listener-outside.js",
-    "src/composables/use-active-audio.js"
+    "src/composables/use-active-audio.js",
+    "src/data/api-service.js",
+    "src/data/usage-data-service.js",
+    "src/utils/warn.js"
   ]
 }
