@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[123],{1584:function(module){module.exports=JSON.parse('{"audio-details":{"table":{"filetype":"प्रारूप"}}}')}}]);

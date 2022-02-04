@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[184],{1582:function(module){module.exports=JSON.parse('{"browse-page":{"search-rating":{"no":"Não","yes":"Sim"}},"media-details":{"reuse":{"credit":{"creator-text":"por {creator-name}"},"tool-header":"Domínio público"}},"sources":{"providers":{"domain":"Domínio"}}}')}}]);
